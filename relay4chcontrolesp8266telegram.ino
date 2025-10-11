@@ -11,7 +11,7 @@ const char* ssid = "Ardi Setengah Matang";
 const char* password = "1029384756";
 
 // Token bot Telegram dari BotFather
-const char* botToken = "8423776848:AAEHTjZn0WsFi2b5HZG13fGHXuKbJwWQ_OU";
+const char* botToken = "8423776848:AAEHTjZn0WsFi2b5HZG13fGHXuKbJwWQ_O";
 
 // Password untuk akses kontrol yang akan diminta oleh bot
 const String aksesPassword = "Pak Fandi";
