@@ -39,7 +39,7 @@ library yang digunakan:
 | relay | esp8266 |
 |--------|--------|
 | gnd | g |
-| vcc | vin |
+| vcc | vin/3v |
 | in1 | d1 |
 | in2 | d2 |
 | in3 | d5 |
