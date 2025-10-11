@@ -31,6 +31,10 @@ alat dan bahan:
 - kabel micro/type-c (sesuaikan dengan nodemcu)
 
 ---
+library yang digunakan:
+- ESP8266
+- UniversalTelegramBot
+---
 #### skema wiring dari relay ke esp8266
 | relay | esp8266 |
 |--------|--------|
