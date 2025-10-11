@@ -1,15 +1,19 @@
+//code ini dibuat secara manual oleh shello ardiansyah XI TJKT (github.com/AkazawaKazairo)
+//script ini tidak diperjualbelikan dan siapa saja boleh menggunakan dan recode script ini
+//laporkan kepada saya jika ada yang memperjualbelikan script ini! (wa: 08511732330)
+
 #include <ESP8266WiFi.h>
 #include <WiFiClientSecure.h>
 #include <UniversalTelegramBot.h>
 
-// Ganti dengan WiFi kamu
+// Ganti dengan WiFi yang akan digunakan
 const char* ssid = "Ardi Setengah Matang";
 const char* password = "1029384756";
 
 // Token bot Telegram dari BotFather
 const char* botToken = "8423776848:AAEHTjZn0WsFi2b5HZG13fGHXuKbJwWQ_OU";
 
-// Password untuk akses kontrol
+// Password untuk akses kontrol yang akan diminta oleh bot
 const String aksesPassword = "Pak Fandi";
 
 // Relay pin
