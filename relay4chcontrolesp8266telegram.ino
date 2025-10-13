@@ -11,7 +11,7 @@ const char* ssid = "Ardi Setengah Matang";
 const char* password = "1029384756";
 
 // Token bot Telegram dari BotFather
-const char* botToken = "8423776848:AAEHTjZn0WsFi2b5HZG13fGHXuKbJwWQ_O";
+const char* botToken = "1234567890:abcdefghijklmnopqrstuvwxyz";
 
 // Password untuk akses kontrol yang akan diminta oleh bot
 const String aksesPassword = "Pak Fandi";
@@ -28,7 +28,7 @@ UniversalTelegramBot bot(botToken, client);
 unsigned long lastTimeBotRan = 0;
 bool aksesAktif = false;
 bool tungguPassword = false;
-long userChatID = 0;
+String userChatID = ""; // ✅ pakai String biar cocok dengan chat_id
 
 void setup() {
   Serial.begin(115200);
@@ -59,7 +59,7 @@ void loop() {
     while (numNewMessages) {
       for (int i = 0; i < numNewMessages; i++) {
         String status = bot.messages[i].text;
-        long chat_id = bot.messages[i].chat_id;
+        String chat_id = bot.messages[i].chat_id; // ✅ pakai String
 
         if (status == "/start") {
           bot.sendMessage(chat_id, "Halo! Kirim password untuk akses kontrol:", "");
