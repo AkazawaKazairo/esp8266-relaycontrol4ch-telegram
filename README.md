@@ -1,5 +1,4 @@
 # PROJECT SAKLAR OTOMATIS VIA APLIKASI TELEGRAM MENGGUNAKAN RELAY 4CH DAN ESP8266V3
-# note: masih beta dan belum teruji
 project ini adalah project sekolah saya, dan project ini bisa diaplikasikan di mana saja bukan hanya sekedar lampu.
 
 big thanks to:
